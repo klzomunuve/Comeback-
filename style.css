@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.about h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 18px;
+  margin: 6px 0;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe57;
+}
